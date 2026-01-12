@@ -1,4 +1,4 @@
-# Grant Swarm: Verifiable Matrix Multiplication (ZK-MatMul)
+# Succinct Proof on RISC-V (ZK-MatMul)
 
 This project implements **Verifiable Compute** for decentralized AI swarms. Using **SP1 (Succinct Prover 1)** and a **RISC-V zkVM**, we prove that matrix multiplication was performed correctly without requiring the verifier to re-run the computation.
 
@@ -14,7 +14,7 @@ In a decentralized "Swarm" of AI agents, nodes must perform heavy mathematical l
 - **RISC-V Instructions**: 540,735 cycles.
 - **Proof Generation Time**: 275.80 seconds.
 - **Verifiable Result**: 48.0 (Example Output).
-- **Integrity**:  **Cryptographically Verified**
+- **Integrity**: **Cryptographically Verified**
 
 ## Tech Stack
 - **Guest Program**: Rust-based MatMul compiled to **RISC-V**.
@@ -25,3 +25,8 @@ In a decentralized "Swarm" of AI agents, nodes must perform heavy mathematical l
 ## How to Run
 1. **Build Guest**: `cd matmul-prover/program && cargo prove build`
 2. **Run Prover**: `cd matmul-prover/script && cargo run --release`
+
+---
+
+### Judge/Contributor Tip: Instant Environment
+This repository includes a `.devcontainer` configuration. If you open this project in **GitHub Codespaces**, the Rust toolchain and SP1 RISC-V environment will be installed automatically, allowing you to run the prover immediately without manual setup.

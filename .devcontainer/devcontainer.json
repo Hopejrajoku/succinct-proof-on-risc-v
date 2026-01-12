@@ -1,0 +1,17 @@
+{
+    "name": "SP1 ZKVM Rust Environment",
+    "image": "mcr.microsoft.com/devcontainers/rust:1",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "postCreateCommand": "curl -L https://sp1.succinct.xyz | bash && . ~/.bashrc && /home/vscode/.sp1/bin/sp1up && rustup target add riscv32imac-unknown-none-elf",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml",
+                "serayuzgur.crates"
+            ]
+        }
+    }
+}
