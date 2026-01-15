@@ -24,9 +24,9 @@ In a decentralized "Swarm" of AI agents, nodes must perform heavy mathematical l
 
 ## HOW TO RUN
 # a. Launch the Environment
-Click the Code button at the top of this repository.
-Select the Codespaces tab and click Create codespace on main.
-Wait for the terminal to initialize and AUTO install packages, to save you the stress(approx. 30-90 seconds).
+1. Click the Code button at the top of this repository.
+2. Select the Codespaces tab and click Create codespace on main.
+3. Wait for the terminal to initialize and AUTO install packages, to save you the stress(approx. 30-90 seconds).
 
 # b. 
 1. **Build Guest**: `cd matmul-prover/script`
