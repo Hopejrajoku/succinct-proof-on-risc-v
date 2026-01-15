@@ -24,7 +24,7 @@ In a decentralized "Swarm" of AI agents, nodes must perform heavy mathematical l
 
 ## How to Run
 1. **Build Guest**: `cd matmul-prover/program && cargo prove build`
-2. **Run Prover**: `cd matmul-prover/script && cargo run --release`
+2. **Run Prover**: `cargo run --release`
 
 ---
 
