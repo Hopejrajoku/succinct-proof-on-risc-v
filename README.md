@@ -22,9 +22,15 @@ In a decentralized "Swarm" of AI agents, nodes must perform heavy mathematical l
 - **Host**: Rust SDK for proof generation and verification.
 - **Environment**: GitHub Codespaces.
 
-## How to Run
-1. **Build Guest**: `cd matmul-prover/script`
-2. **Run Prover**: `cargo run --release`
+## HOW TO RUN
+# 1. Launch the Environment
+Click the Code button at the top of this repository.
+Select the Codespaces tab and click Create codespace on main.
+Wait for the terminal to initialize and AUTO install packages, to save you the stress(approx. 30-90 seconds).
+
+# 2. 
+a. **Build Guest**: `cd matmul-prover/script`
+b. **Run Prover**: `cargo run --release`
 
 ---
 
